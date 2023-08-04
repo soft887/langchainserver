@@ -18,7 +18,7 @@ class AzureChatOpenAI_ChatModels implements INode {
         this.name = 'azureChatOpenAI'
         this.type = 'AzureChatOpenAI'
         this.icon = 'Azure.svg'
-        this.category = 'Chat Models'
+        this.category = 'Chat Modelsqqqq'
         this.description = 'Wrapper around Azure OpenAI large language models that use the Chat endpoint'
         this.baseClasses = [this.type, ...getBaseClasses(ChatOpenAI)]
         this.inputs = [

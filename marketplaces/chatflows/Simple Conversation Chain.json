@@ -224,7 +224,7 @@
                 "type": "ConversationChain",
                 "baseClasses": ["ConversationChain", "LLMChain", "BaseChain", "BaseLangChain"],
                 "category": "Chains",
-                "description": "Chat models specific conversational chain with memory",
+                "description": "Chat Models specific conversational chain with memory",
                 "inputParams": [
                     {
                         "label": "System Message",

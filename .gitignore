@@ -1,4 +1,4 @@
-
+dist/
 components/node_modules/
-
+components/dist/
 node_modules/

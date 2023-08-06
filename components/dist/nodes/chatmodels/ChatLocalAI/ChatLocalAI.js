@@ -8,7 +8,7 @@ class ChatLocalAI_ChatModels {
         this.name = 'chatLocalAI';
         this.type = 'ChatLocalAI';
         this.icon = 'localai.png';
-        this.category = 'Chat Models';
+        this.category = 'Engines';
         this.description = 'Use local LLMs like llama.cpp, gpt4all using LocalAI';
         this.baseClasses = [this.type, 'BaseChatModel', ...(0, utils_1.getBaseClasses)(openai_1.OpenAIChat)];
         this.inputs = [

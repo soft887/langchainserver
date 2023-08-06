@@ -8,7 +8,7 @@ class ChatAnthropic_ChatModels {
         this.name = 'chatAnthropic';
         this.type = 'ChatAnthropic';
         this.icon = 'chatAnthropic.png';
-        this.category = 'Chat Models';
+        this.category = 'Engines';
         this.description = 'Wrapper around ChatAnthropic large language models that use the Chat endpoint';
         this.baseClasses = [this.type, ...(0, utils_1.getBaseClasses)(anthropic_1.ChatAnthropic)];
         this.inputs = [

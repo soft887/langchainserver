@@ -8,7 +8,7 @@ class ChatHuggingFace_ChatModels {
         this.name = 'chatHuggingFace';
         this.type = 'ChatHuggingFace';
         this.icon = 'huggingface.png';
-        this.category = 'Chat Models';
+        this.category = 'Engines';
         this.description = 'Wrapper around HuggingFace large language models';
         this.baseClasses = [this.type, 'BaseChatModel', ...(0, utils_1.getBaseClasses)(core_1.HuggingFaceInference)];
         this.inputs = [

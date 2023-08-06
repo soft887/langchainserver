@@ -17,7 +17,7 @@ class ChatHuggingFace_ChatModels implements INode {
         this.name = 'chatHuggingFace'
         this.type = 'ChatHuggingFace'
         this.icon = 'huggingface.png'
-        this.category = 'Chat Models'
+        this.category = 'Engines'
         this.description = 'Wrapper around HuggingFace large language models'
         this.baseClasses = [this.type, 'BaseChatModel', ...getBaseClasses(HuggingFaceInference)]
         this.inputs = [

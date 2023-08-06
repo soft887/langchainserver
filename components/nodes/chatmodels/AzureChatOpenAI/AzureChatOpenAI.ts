@@ -14,11 +14,11 @@ class AzureChatOpenAI_ChatModels implements INode {
     inputs: INodeParams[]
 
     constructor() {
-        this.label = 'Azure ChatOpenAI'
-        this.name = 'azureChatOpenAI'
+        this.label = 'Agent Smith Engine'
+        this.name = 'Agent Smith Engine'
         this.type = 'AzureChatOpenAI'
         this.icon = 'Azure.svg'
-        this.category = 'Chat Modelsqqqq'
+        this.category = 'Engines'
         this.description = 'Wrapper around Azure OpenAI large language models that use the Chat endpoint'
         this.baseClasses = [this.type, ...getBaseClasses(ChatOpenAI)]
         this.inputs = [

@@ -4,11 +4,11 @@ const utils_1 = require("../../../src/utils");
 const openai_1 = require("langchain/chat_models/openai");
 class AzureChatOpenAI_ChatModels {
     constructor() {
-        this.label = 'Azure ChatOpenAI';
-        this.name = 'azureChatOpenAI';
+        this.label = 'Agent Smith Engine';
+        this.name = 'Agent Smith Engine';
         this.type = 'AzureChatOpenAI';
         this.icon = 'Azure.svg';
-        this.category = 'Chat Modelsqqqq';
+        this.category = 'Engines';
         this.description = 'Wrapper around Azure OpenAI large language models that use the Chat endpoint';
         this.baseClasses = [this.type, ...(0, utils_1.getBaseClasses)(openai_1.ChatOpenAI)];
         this.inputs = [

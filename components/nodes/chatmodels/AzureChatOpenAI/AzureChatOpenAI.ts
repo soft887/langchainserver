@@ -14,16 +14,16 @@ class AzureChatOpenAI_ChatModels implements INode {
     inputs: INodeParams[]
 
     constructor() {
-        this.label = 'Agent Smith Engine'
-        this.name = 'Agent Smith Engine'
+        this.label = 'Agentsmith Engine'
+        this.name = 'Agentsmith Engine'
         this.type = 'AzureChatOpenAI'
         this.icon = 'Azure.svg'
         this.category = 'Engines'
-        this.description = 'Wrapper around Azure OpenAI large language models that use the Chat endpoint'
+        this.description = 'Wrapper around Agentsmith large language models that use the Chat endpoint'
         this.baseClasses = [this.type, ...getBaseClasses(ChatOpenAI)]
         this.inputs = [
             {
-                label: 'Azure OpenAI Api Key',
+                label: 'Agentsmith Api Key',
                 name: 'azureOpenAIApiKey',
                 type: 'password'
             },
@@ -60,19 +60,19 @@ class AzureChatOpenAI_ChatModels implements INode {
                 optional: true
             },
             {
-                label: 'Azure OpenAI Api Instance Name',
+                label: 'Agentsmith Api Instance Name',
                 name: 'azureOpenAIApiInstanceName',
                 type: 'string',
                 placeholder: 'YOUR-INSTANCE-NAME'
             },
             {
-                label: 'Azure OpenAI Api Deployment Name',
+                label: 'Agentsmith Api Deployment Name',
                 name: 'azureOpenAIApiDeploymentName',
                 type: 'string',
                 placeholder: 'YOUR-DEPLOYMENT-NAME'
             },
             {
-                label: 'Azure OpenAI Api Version',
+                label: 'Agentsmith Api Version',
                 name: 'azureOpenAIApiVersion',
                 type: 'string',
                 placeholder: '2023-06-01-preview',

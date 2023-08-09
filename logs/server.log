@@ -261,3 +261,51 @@ InsufficientQuotaError: You exceeded your current quota, please check your plan 
 2023-08-06 18:01:19 [INFO]: Starting Flowise...
 2023-08-06 18:01:19 [INFO]: ⚡️ [server]: Flowise Server is listening at 3010
 2023-08-06 18:01:19 [INFO]: 📦 [server]: Data Source has been initialized!
+2023-08-07 02:53:18 [INFO]: Starting Flowise...
+2023-08-07 02:53:19 [INFO]: ⚡️ [server]: Flowise Server is listening at 3010
+2023-08-07 02:53:19 [INFO]: 📦 [server]: Data Source has been initialized!
+2023-08-07 02:57:08 [INFO]: Starting Flowise...
+2023-08-07 02:57:08 [INFO]: ⚡️ [server]: Flowise Server is listening at 3010
+2023-08-07 02:57:08 [INFO]: 📦 [server]: Data Source has been initialized!
+2023-08-07 03:06:57 [INFO]: Starting Flowise...
+2023-08-07 03:06:57 [INFO]: ⚡️ [server]: Flowise Server is listening at 3010
+2023-08-07 03:06:57 [INFO]: 📦 [server]: Data Source has been initialized!
+2023-08-07 03:14:52 [INFO]: Starting Flowise...
+2023-08-07 03:14:52 [INFO]: ⚡️ [server]: Flowise Server is listening at 3010
+2023-08-07 03:14:52 [INFO]: 📦 [server]: Data Source has been initialized!
+2023-08-07 03:19:37 [INFO]: Shutting down Flowise...
+2023-08-07 11:15:07 [INFO]: Starting Flowise...
+2023-08-07 11:15:08 [INFO]: ⚡️ [server]: Flowise Server is listening at 3010
+2023-08-07 11:15:08 [INFO]: 📦 [server]: Data Source has been initialized!
+2023-08-08 23:41:45 [INFO]: Starting Flowise...
+2023-08-08 23:41:45 [INFO]: ⚡️ [server]: Flowise Server is listening at 3010
+2023-08-08 23:41:46 [INFO]: 📦 [server]: Data Source has been initialized!
+2023-08-08 23:44:37 [INFO]: ⬆️ POST /api/v1/chatflows
+2023-08-08 23:44:39 [INFO]: 🖊 PUT /api/v1/chatflows/bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea
+2023-08-08 23:44:59 [INFO]: 🖊 PUT /api/v1/chatflows/bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea
+2023-08-08 23:45:03 [INFO]: ⬆️ POST /api/v1/chatmessage/bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea
+2023-08-08 23:45:03 [INFO]: ⬆️ POST /api/v1/internal-prediction/bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea
+2023-08-08 23:45:03 [INFO]: [server]: Chatflow bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea added into ChatflowPool
+2023-08-08 23:45:05 [ERROR]: [server]: Error: You exceeded your current quota, please check your plan and billing details.
+InsufficientQuotaError: You exceeded your current quota, please check your plan and billing details.
+    at Object.onFailedAttempt (D:\project\prend\server\components\node_modules\langchain\dist\util\async_caller.cjs:87:35)
+    at RetryOperation._fn (D:\project\prend\server\components\node_modules\p-retry\index.js:67:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-08-08 23:45:05 [INFO]: ⬆️ POST /api/v1/chatmessage/bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea
+2023-08-08 23:51:28 [INFO]: 🖊 PUT /api/v1/chatflows/bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea
+2023-08-08 23:51:30 [INFO]: [server]: Chatflow bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea updated inSync=false in ChatflowPool
+2023-08-08 23:51:37 [INFO]: ⬆️ POST /api/v1/chatmessage/bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea
+2023-08-08 23:51:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea
+2023-08-08 23:51:37 [INFO]: [server]: Chatflow bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea added into ChatflowPool
+2023-08-08 23:52:12 [INFO]: Starting Flowise...
+2023-08-08 23:52:12 [INFO]: ⚡️ [server]: Flowise Server is listening at 3010
+2023-08-08 23:52:12 [INFO]: 📦 [server]: Data Source has been initialized!
+2023-08-08 23:53:27 [INFO]: ⬆️ POST /api/v1/chatmessage/bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea
+2023-08-08 23:53:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea
+2023-08-08 23:53:27 [INFO]: [server]: Chatflow bdb4aa4d-4f46-43ab-bc58-ac5a2135e4ea added into ChatflowPool
+2023-08-09 06:22:30 [INFO]: Starting Flowise...
+2023-08-09 06:22:31 [INFO]: ⚡️ [server]: Flowise Server is listening at 3010
+2023-08-09 06:22:31 [INFO]: 📦 [server]: Data Source has been initialized!
+2023-08-09 06:31:10 [INFO]: Starting Flowise...
+2023-08-09 06:31:10 [INFO]: ⚡️ [server]: Flowise Server is listening at 3010
+2023-08-09 06:31:11 [INFO]: 📦 [server]: Data Source has been initialized!
